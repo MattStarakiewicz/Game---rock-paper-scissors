@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  MattStarakiewicz</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>GRA: "PAPIER, KAMIEŃ, NOŻYCE"</h2>
+        <button class="red" id="button-nowagra">NOWA GRA</button>
+      </div>
+    </div>
+
+    <div class="row button-border">
+      <div class="col-md-4">
+        <button class="player-move" id="button-papier" data-move="1">PAPIER</button>
+      </div>
+      
+      <div class="col-md-4">
+        <button class="player-move" id="button-kamien" data-move="2">KAMIEŃ</button>
+      </div>
+      
+      <div class="col-md-4">
+        <button class="player-move" id="button-nozyce" data-move="3">NOŻYCE</button>
+      </div>
+    </div>
+    <div class="row">
+       <div class="napisy" id="output"></div>
+    </div>
+    <div class="row">
+       <h3>PUNKTACJA:</h3>
+       <div class="napisy" id="result"></div>
+    </div>
+    <div class="row">
+       <div class="napisy" id="liczba-rund"></div>
+    </div>
+</div>
+<div class="overlay" id="modal-overlay">
+	<div class="modal" id="modal-one">
+		<a href="#" class="close">x</a>
+		<header>Modal one</header>
+		<div class="content">
+			<p>Dolor sit amet!</p>
+		</div>
+	</div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
